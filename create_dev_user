@@ -2,7 +2,7 @@
 
 set -e
 
-SUBDOMAIN="dev"
+SUBDOMAIN="nico"
 PASSWORD="pass1234"
 ADMIN_PASSWORD="pass1234"
 EMAIL="dev@example.com"
