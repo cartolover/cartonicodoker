@@ -1,5 +1,5 @@
 ORGANIZATION_NAME="example"
-USERNAME="admin4example"
+USERNAME="nicoali"
 EMAIL="admin@example.com"
 PASSWORD="pass1234"
 
