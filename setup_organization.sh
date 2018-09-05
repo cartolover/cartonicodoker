@@ -1,4 +1,4 @@
-ORGANIZATION_NAME="example"
+ORGANIZATION_NAME="cataviz"
 USERNAME="nicoali"
 EMAIL="admin@example.com"
 PASSWORD="pass1234"
