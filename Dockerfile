@@ -150,7 +150,7 @@ RUN cd / && \
 # Initialize template postgis db
 ADD ./template_postgis.sh /tmp/template_postgis.sh
 RUN service postgresql start && /bin/su postgres -c \
-      ./tmp/template_postgis.sh && service postgresql stop
+      ./template_postgis.sh && service postgresql stop
 
 ADD ./cartodb_pgsql.sh /tmp/cartodb_pgsql.sh
 
