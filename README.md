@@ -18,7 +18,7 @@ How to build the container:
 ---------------------------
 
 ```
-git clone https://github.com/sverhoeven/docker-cartodb.git
+git clone https://github.com/nicoali/cartonicodoker.git
 docker build -t=sverhoeven/cartodb docker-cartodb/
 ```
 
