@@ -1,6 +1,6 @@
-ORGANIZATION_NAME="example"
-USERNAME="admin4example"
-EMAIL="admin@example.com"
+ORGANIZATION_NAME="cataviz"
+USERNAME="cataviz"
+EMAIL="nicoaliotta@gmail.com"
 PASSWORD="pass1234"
 
 bundle exec rake cartodb:db:create_user EMAIL="${EMAIL}" PASSWORD="${PASSWORD}" SUBDOMAIN="${USERNAME}"
