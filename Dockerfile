@@ -171,7 +171,7 @@ RUN git clone git://github.com/CartoDB/Windshaft-cartodb.git && \
     mkdir logs
 
 # Install CartoDB
-RUN git clone --recursive git://github.com/CartoDB/cartodb.git && \
+RUN git clone --recursive https://cartonico@bitbucket.org/cartonico/cartonico.git && \
     cd cartodb && \
     git checkout $CARTODB_VERSION && \
     # Install cartodb extension
