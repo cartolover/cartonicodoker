@@ -22,6 +22,8 @@ git clone https://github.com/nicoali/cartonicodoker.git
 docker build -t=sverhoeven/cartodb cartonicodoker/
 ```
 
+sed -i -e 's/\r$//' scriptname.sh
+
 The build uses the master branches of the [CartoDB GitHub repositories](https://github.com/CartoDB). A fresh build may fail when code requires newer dependencies then the Dockerfile provides or when code is not stable at the moment of building.
 
 How to run the container:
